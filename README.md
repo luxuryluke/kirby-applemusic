@@ -23,11 +23,21 @@ This plugin adds an Apple Music Embed field type for Kirby including a live prev
 
 ### Blueprints
 
-In a Page blueprint, add a new field with the type `applemusic`. Standard field attributes such as `label`, `required`, `help`, etc. can also be used to override the defaults.
+1. In a Page blueprint, add a new field with the type `applemusic`. Standard field attributes such as `label`, `required`, `help`, etc. can also be used to override the defaults.
 
     music:
       label: Apple Music Embed
       type: applemusic
+
+2. Paste in the Music album or track id code into the field.
+or
+2. Paste in the embed code you copied from Music using the "Embed" share method.
+or 
+2. Paste in the share url link you grabbed from Music like this: `https://music.apple.com/us/album/where-is-my-mind/1165219808?i=1165219842`
+
+(explanation about song or album IDs if necessary?)
+
+3. Test rendering in your site in test environment?
 
 ### Templates
 
